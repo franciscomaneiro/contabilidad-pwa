@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181A20" />
+      <stop offset="100%" stop-color="#0B0E14" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD535" />
+      <stop offset="100%" stop-color="#F0B90B" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#gold)" stroke-width="18" opacity="0.25" />
+  <!-- Wallet / Vault symbol -->
+  <rect x="146" y="176" width="220" height="160" rx="28" fill="url(#gold)" />
+  <path d="M146 220 L366 220" stroke="#0B0E14" stroke-width="10" stroke-linecap="round" />
+  <circle cx="316" cy="276" r="20" fill="#0B0E14" />
+  <circle cx="316" cy="276" r="8" fill="#FCD535" />
+</svg>
